@@ -43,8 +43,4 @@ public class EmptyChunkGenerator extends ChunkGenerator {
         return false;
     }
 
-    @Override
-    public Location getFixedSpawnLocation(World world, Random random) {
-        return new Location(world, 0, 100, 0);
-    }
 }

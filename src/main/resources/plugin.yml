@@ -1,5 +1,13 @@
 name: VoidWorld
-version: '${project.version}'
+version: 'v1.0'
 main: mc.voidworld.VoidWorld
-api-version: 1.20
 load: STARTUP
+commands:
+  createvoidworld:
+    description: Create a void world
+    usage: /createvoidworld
+    default: op
+  worldteleport:
+    description: Teleport to a world
+    usage: /worldteleport [world]
+    default: op
